@@ -1,10 +1,12 @@
+"use strict";
+
 const path = require("path");
 
 module.exports = {
   entry: "./src/index.tsx",
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: bundle.js
+    filename: "bundle.js"
   },
   module: {
     rules: [
